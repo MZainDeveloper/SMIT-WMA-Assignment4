@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.search input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Blog Title Section */
+.blog-title {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.blog-title h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.author-info {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.author-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Blog Content */
+.blog-content {
+  padding: 2rem 10%;
+  line-height: 1.6;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+.blog-content img {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+.blog-content h2 {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem;
+  font-style: italic;
+  background-color: #f0f0f0;
+  border-left: 5px solid #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer h3 {
+  margin-bottom: 1rem;
+}
+.footer-about {
+  width: 30%;
+}
+
+.footer p,
+.footer ul {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+.recent-posts h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.recent-posts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-posts li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recent-posts img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.recent-posts a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.follow-us h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.follow-us a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5em;
+  margin: 0 7px;
+  transition: color 0.3s;
+}
+
+.follow-us .social-icon:hover {
+  color: #0073e6;
+}
